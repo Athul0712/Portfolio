@@ -1,0 +1,76 @@
+/* Global */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #fff;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2em;
+}
+
+/* Skills */
+.skills {
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.skills-list span {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* Projects */
+.projects {
+  text-align: center;
+  padding: 60px 0;
+}
+
+/* Contact */
+.contact {
+  background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 60px 0;
+}
+.contact a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media(max-width:768px){
+  .skills-list {
+    flex-direction: column;
+  }
+  .hero h1 {
+    font-size: 1.5em;
+  }
+}
